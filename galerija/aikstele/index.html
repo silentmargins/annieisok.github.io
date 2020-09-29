@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Annie is Ok</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css?v=1.3.2" />
+    <link rel="stylesheet" type="text/css" href="/css/component.css?v=0.0.9" />
+		<link rel="stylesheet" type="text/css" href="/css/all.css" />
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+		
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+	<script src="/js/debouncedresize.js"></script>
+	<script src="/js/modernizr.custom.js"></script>
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">ANNIE IS OK</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse space-between" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+
+      
+        <a class="nav-item nav-link" href="/apie/" title="">
+          Apie
+        </a>
+      
+        <a class="nav-item nav-link" href="/galerija/" title="">
+          Galerija
+        </a>
+      
+        <a class="nav-item nav-link" href="/tekstai/" title="">
+          Tekstai
+        </a>
+      
+        <a class="nav-item nav-link" href="/kontaktai/" title="">
+          Kontaktai
+        </a>
+      
+        <a class="nav-item nav-link" href="/printai/" title="">
+          SPAUSTUVĖ
+        </a>
+      
+    </div>
+    <div id='icons'>
+        <ul class="header-icons list-inline">
+      
+        <li><a href="https://urvai.bandcamp.com/" target="_blank"><i class="fab fa-etsy"></i></a></li>
+      
+        <li><a href="https://urvai.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a></li>
+      
+        <li><a href="https://www.mixcloud.com/silentmargins/" target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+      
+        <li><a href="https://www.instagram.com/eglebau/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      
+        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      
+    </ul>
+    </div>
+  </div>
+</nav>
+<div id="content">
+<style media="screen">
+  #mygtukas {
+    display: none;
+  }
+</style>
+	<h3 class="font-tertiary submenu">Galerija</h3>
+	<div class="submenu">
+		
+		
+		
+			<a class="submenu-links" href="/galerija/piesta/" title="Piešta" style="">
+				Piešta
+			</a>
+		
+			<a class="submenu-links" href="/galerija/uzsuko/" title="Užsuko" style="">
+				Užsuko
+			</a>
+		
+			<a class="submenu-links" href="/galerija/bare/" title="Bare, devintą" style="">
+				Bare, devintą
+			</a>
+		
+			<a class="submenu-links" href="/galerija/aikstele/" title="Bare, aikštelė" style=" font-weight:600;">
+				Bare, aikštelė
+			</a>
+		
+			<a class="submenu-links" href="/galerija/eglynas/" title="Anapus eglyno" style="">
+				Anapus eglyno
+			</a>
+		
+			<a class="submenu-links" href="/galerija/lizdas/" title="Gegutės lizdas" style="">
+				Gegutės lizdas
+			</a>
+		
+			<a class="submenu-links" href="/galerija/kava/" title="Kavos" style="">
+				Kavos
+			</a>
+		
+			<a class="submenu-links" href="/galerija/neistirta/" title="Neištirta" style="">
+				Neištirta
+			</a>
+		
+	</div>
+
+<ul id="og-grid" class="og-grid">
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/6.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/6-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/6.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/7.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/7-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/7.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/8.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/8-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/8.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/9.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/9-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/9.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/10.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/10-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/10.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/12.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/12-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/12.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/13.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/13-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/13.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/15.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/15-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/15.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/33.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/33-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/33.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/16.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/16-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/16.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/17.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/17-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/17.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/18.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/18-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/18.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/19.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/19-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/19.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/20.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/20-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/20.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/34.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/34-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/34.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/21.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/21-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/21.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/22.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/22-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/22.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/23.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/23-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/23.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/24.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/24-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/24.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/11.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/11-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/11.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/25.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/25-thumb.jpg" alt="Test Alternative">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/25.jpg" alt="Test Alternative">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/26.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/26-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/26.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/27.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/27-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/27.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/28.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/28-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/28.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/29.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/29-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/29.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/30.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/30-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/30.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/31.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/31-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/31.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/32.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/32-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/32.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/14.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/14-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/14.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/35.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/35-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/35.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/36.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/36-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/36.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/37.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/37-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/37.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/38.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/38-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/38.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/39.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/39-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/39.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/40.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/40-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/40.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/41.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/41-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/41.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/42.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/42-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/42.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/43.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/43-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/43.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/44.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/44-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/44.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/45.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/45-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/45.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/46.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/46-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/46.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/47.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/47-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/47.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/48.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/48-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/48.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/49.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/49-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/49.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/50.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/50-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/50.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/51.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/51-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/51.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/52.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928">
+        <img class="d-none d-sm-block" src="/img/52-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/52.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/1.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893">
+        <img class="d-none d-sm-block" src="/img/1-thumb.jpg" alt="Test Alternative">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/1.jpg" alt="Test Alternative">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/2.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901">
+        <img class="d-none d-sm-block" src="/img/2-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/2.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/3.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902">
+        <img class="d-none d-sm-block" src="/img/3-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/3.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/4.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08">
+        <img class="d-none d-sm-block" src="/img/4-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/4.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/5.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926">
+        <img class="d-none d-sm-block" src="/img/5-thumb.jpg" alt="Test Alt">
+        <div class="blokas">
+        <img class="d-block d-sm-none" src="/img/5.jpg" alt="Test Alt">
+        <button type="submit" name="button">test me</button>
+        </div>
+      </a>
+    </li>
+  
+</ul>
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/js/grid.js?v=0.3.4"></script>
+        <script>
+            $(function() {
+                Grid.init();
+            });
+        </script>
+    <footer class="footer">
+        <p class="text-muted ui center aligned header">Copyright &#xA9; 2020 Annie is Ok.</p>
+    </footer>
+
+</body>
+</html>

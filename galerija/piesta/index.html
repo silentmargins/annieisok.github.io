@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Annie is Ok</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css?v=1.3.2" />
+    <link rel="stylesheet" type="text/css" href="/css/component.css?v=0.0.9" />
+		<link rel="stylesheet" type="text/css" href="/css/all.css" />
+		<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+		
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+	<script src="/js/debouncedresize.js"></script>
+	<script src="/js/modernizr.custom.js"></script>
+</head>
+<body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">ANNIE IS OK</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse space-between" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+
+      
+        <a class="nav-item nav-link" href="/apie/" title="">
+          Apie
+        </a>
+      
+        <a class="nav-item nav-link" href="/galerija/" title="">
+          Galerija
+        </a>
+      
+        <a class="nav-item nav-link" href="/tekstai/" title="">
+          Tekstai
+        </a>
+      
+        <a class="nav-item nav-link" href="/kontaktai/" title="">
+          Kontaktai
+        </a>
+      
+        <a class="nav-item nav-link" href="/printai/" title="">
+          SPAUSTUVĖ
+        </a>
+      
+    </div>
+    <div id='icons'>
+        <ul class="header-icons list-inline">
+      
+        <li><a href="https://urvai.bandcamp.com/" target="_blank"><i class="fab fa-etsy"></i></a></li>
+      
+        <li><a href="https://urvai.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a></li>
+      
+        <li><a href="https://www.mixcloud.com/silentmargins/" target="_blank"><i class="fab fa-mixcloud"></i></a></li>
+      
+        <li><a href="https://www.instagram.com/eglebau/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      
+        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      
+    </ul>
+    </div>
+  </div>
+</nav>
+<div id="content">
+<style media="screen">
+  #mygtukas {
+    display: none;
+  }
+</style>
+	<h3 class="font-tertiary submenu">Galerija</h3>
+	<div class="submenu">
+		
+		
+		
+			<a class="submenu-links" href="/galerija/piesta/" title="Piešta" style=" font-weight:600;">
+				Piešta
+			</a>
+		
+			<a class="submenu-links" href="/galerija/uzsuko/" title="Užsuko" style="">
+				Užsuko
+			</a>
+		
+			<a class="submenu-links" href="/galerija/bare/" title="Bare, devintą" style="">
+				Bare, devintą
+			</a>
+		
+			<a class="submenu-links" href="/galerija/aikstele/" title="Bare, aikštelė" style="">
+				Bare, aikštelė
+			</a>
+		
+			<a class="submenu-links" href="/galerija/eglynas/" title="Anapus eglyno" style="">
+				Anapus eglyno
+			</a>
+		
+			<a class="submenu-links" href="/galerija/lizdas/" title="Gegutės lizdas" style="">
+				Gegutės lizdas
+			</a>
+		
+			<a class="submenu-links" href="/galerija/kava/" title="Kavos" style="">
+				Kavos
+			</a>
+		
+			<a class="submenu-links" href="/galerija/neistirta/" title="Neištirta" style="">
+				Neištirta
+			</a>
+		
+	</div>
+
+<ul id="og-grid" class="og-grid">
+
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/6.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="true">
+        <img class="d-none d-sm-block" src="/img/piesta/6-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/6.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/7.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/7-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/7.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/8.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/8-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/8.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/9.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/9-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/9.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/10.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/10-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/10.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/12.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/12-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/12.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/13.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/13-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/13.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/15.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/15-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/15.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/33.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/33-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/33.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/16.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/16-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/16.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/17.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/17-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/17.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/18.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/18-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/18.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/19.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/19-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/19.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/20.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/20-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/20.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/34.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/34-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/34.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/21.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/21-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/21.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/22.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/22-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/22.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/23.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/23-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/23.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/24.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/24-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/24.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/11.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/11-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/11.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/25.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/25-thumb.jpg" alt="Test Alternative">
+        <img class="d-block d-sm-none" src="/img/piesta/25.jpg" alt="Test Alternative">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/26.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/26-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/26.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/27.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/27-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/27.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/28.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/28-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/28.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/29.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/29-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/29.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/30.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/30-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/30.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/31.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/31-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/31.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/32.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/32-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/32.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/14.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/14-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/14.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/35.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/35-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/35.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/36.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/36-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/36.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/37.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/37-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/37.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/38.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/38-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/38.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/39.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/39-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/39.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/40.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/40-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/40.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/41.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/41-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/41.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/42.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/42-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/42.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/43.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/43-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/43.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/44.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/44-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/44.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/45.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/45-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/45.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/46.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/46-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/46.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/47.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/47-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/47.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/48.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/48-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/48.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/49.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/49-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/49.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/50.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/50-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/50.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/51.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/51-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/51.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/52.jpg"
+        data-title="Flowers and Spanish Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="39cm x 46cm"
+        data-description="c. 1928"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/52-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/52.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/1.jpg"
+        data-title="Old Boathouse"
+        data-mediums="Watercolour &amp; gouache"
+        data-dimensions="20cm x 36cm"
+        data-description="Port Chalmers c. 1893"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/1-thumb.jpg" alt="Test Alternative">
+        <img class="d-block d-sm-none" src="/img/piesta/1.jpg" alt="Test Alternative">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/2.jpg"
+        data-title="The Poulterers’ Corner"
+        data-mediums="Watercolour"
+        data-dimensions="18cm x 11.5cm"
+        data-description="Arles c. 1901"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/2-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/2.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/3.jpg"
+        data-title="Breton Pottery"
+        data-mediums="Watercolour"
+        data-dimensions="17.5cm x 11.3cm"
+        data-description="c. 1902"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/3-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/3.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/4.jpg"
+        data-title="Boys Fishing"
+        data-mediums="Watercolour"
+        data-dimensions="26cm x 36cm"
+        data-description="c. 1907/08"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/4-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/4.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+    <li>
+      <a
+        href=""
+        data-largesrc="/img/piesta/5.jpg"
+        data-title="The Water Wheel "
+        data-mediums="Watercolour &amp; Pencil"
+        data-dimensions="20cm x 30.5cm"
+        data-description="c. 1926"
+        data-printas="">
+        <img class="d-none d-sm-block" src="/img/piesta/5-thumb.jpg" alt="Test Alt">
+        <img class="d-block d-sm-none" src="/img/piesta/5.jpg" alt="Test Alt">
+      </a>
+    </li>
+  
+</ul>
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/js/grid.js?v=0.3.4"></script>
+        <script>
+            $(function() {
+                Grid.init();
+            });
+        </script>
+    <footer class="footer">
+        <p class="text-muted ui center aligned header">Copyright &#xA9; 2020 Annie is Ok.</p>
+    </footer>
+
+</body>
+</html>
